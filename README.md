@@ -3,6 +3,8 @@ All files associated with bxv.gg
 
 ## Note
 
+Since most people aren't going to read the license: If you use any of our code we expect credit to be given in a visual way, whever it is used. This can be in form of a simple text **visible on the webpage** (not console) saying something along the lines of "design by bxv" or "code by bxv". Not complying with these terms will be considered breaking the license
+
 This was originally published at 11.01.2022 and re-opened to public eyes at 13.11.2022
 
 Cookie challenge and captcha aren't open source anymore
