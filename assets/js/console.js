@@ -14,10 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var isConsoleStreaming = false;
 
     
-    //stop people from copy pasting
-    if(window.location.hostname != "bxv.gg"){
-        window.location.href = 'https://bxv.gg/';
-    }
+    console.log("<-- Code publicly available at https://github.com/41Baloo/bxv.gg -->")
 	
     document.addEventListener("mousedown", function (e) {
         if(!isConsoleStreaming){
