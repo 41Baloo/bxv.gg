@@ -1,0 +1,125 @@
+body {
+    background-color: #000000;
+    color: white;
+    font-family: 'League Spartan', sans-serif;
+}
+
+ a, a:hover, a:focus, a:active {
+      text-decoration: none;
+      color: white;
+ }
+
+.title {
+    font-family: 'Quantico', sans-serif;
+}
+
+.card-body {
+    color: black;
+}
+
+.card-body h2 {
+    font-weight: bold;
+}
+
+.console-container {
+    height: 300px;
+    border: 0.5px solid white;
+    border-radius: 5px;
+    margin: 0 auto;
+
+    overflow: hidden;
+
+    /*display: flex;
+    flex-direction: column-reverse;
+
+    word-wrap: break-word;
+*/
+    background: linear-gradient(90deg, rgba(5, 5, 5, 1) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+.console div {
+    margin: 0;
+    font-family: 'Inconsolata', monospace;
+	caret-shape: underscore;
+	caret-color: #fff;
+}
+
+.console {
+    padding: 5px 10px;
+}
+
+.featuring {
+    text-align: justify;
+}
+
+.accordion-body {
+    text-align: justify;
+}
+
+.featuring p {
+    font-size: 19px;
+    color: #dfdfdf;
+}
+
+.special p {
+    font-size: 19px;
+    color: #dfdfdf;
+}
+
+.accordion {
+    color: white;
+    background-color: transparent;
+}
+
+.accordion-item {
+    color: white;
+    background-color: transparent;
+}
+
+.accordion-header {
+    color: black;
+    background-color: white;
+}
+
+.accordion-button {
+    color: black;
+    background-color: transparent;
+}
+
+.accordion-button:not(.collapsed) {
+    color: black;
+    background-color: white;
+    box-shadow: none;
+}
+
+.accordion-button:after {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000000'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+}
+
+@media screen and (max-width: 800px) {
+    .console-container {
+        width: 100%;
+    }
+
+    .info-card {
+        padding-top: 20px;
+    }
+
+    .featuring {
+        padding-top: 20px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .console-container {
+        width: 640px;
+    }
+
+    .info-card {
+        padding-top: 40px;
+    }
+
+    .featuring {
+        padding-top: 40px;
+    }
+}

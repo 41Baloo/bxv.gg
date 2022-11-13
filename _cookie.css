@@ -1,0 +1,114 @@
+/*
+* Copyright 2021-2022 BxV CDN
+* Made by Voltic.#1337 & 41Baloo#4141
+* Please don't paste it...
+*/
+
+
+* {
+    color: white;
+}
+
+body {
+    background-color: #191919;
+}
+
+@font-face {
+    font-family: derk;
+    src: url(/font);
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.center-body {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 94%;
+}
+
+.header-text {
+    text-align: right;
+    right: 11%;
+    bottom: 39%;
+    font-size: 30px;
+    position: absolute;
+}
+
+.button {
+    background-color: #212121;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+
+.timeselector {
+    height: 25px;
+    background-color: #212121;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid white;
+    align-items: right;
+}
+
+.footer {
+    color: #303030;
+    font-family: derk;
+}
+
+.cookie_image {
+    background-image: url("cookie_image.png");
+}
+
+#cookie_image {
+    background-image: url("cookie_image.png");
+}
+
+.icon {
+    font-size: 50px;
+    margin-left: 20px;
+}
+
+@media only screen and (max-width: 1200px) {
+    #header {
+        background-color: #212121;
+        margin-top: 20px;
+        border-top: 4px solid white;
+        font-family: derk;
+        width: 100%;
+    }
+
+    #card {
+        background-color: #212121;
+        margin-top: 20px;
+        border-left: 4px solid white;
+        font-family: derk;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #header {
+        text-indent: 10px;
+        background-color: #212121;
+        margin-top: 30px;
+        border-left: 4px solid white;
+        font-family: derk;
+    }
+
+    #card {
+        background-color: #212121;
+        margin-top: 33px;
+        border-top: 4px solid white;
+        font-family: derk;
+    }
+
+    #phone-headers {
+        margin-top: 80px;
+    }
+}
